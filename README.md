@@ -1,3 +1,3 @@
-# new_app
+# news_app
 
 A new Flutter project.
