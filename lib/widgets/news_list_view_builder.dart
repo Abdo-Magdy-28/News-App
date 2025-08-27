@@ -30,7 +30,7 @@ class _NewsListViewBuilderState extends State<NewsListViewBuilder> {
         if (Snapshot.hasData) {
           return NewsTileListView(articles: Snapshot.data!);
         } else if (Snapshot.hasError) {
-          return Text('OOOPs ther is an error ');
+          return Text('OOOPs there is an error ');
         } else {
           return SliverFillRemaining(
             child: Center(
